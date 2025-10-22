@@ -10,7 +10,10 @@
 > **End-to-end observability for FastAPI services** — metrics, alerts, and dashboards out of the box.  
 > Built for **reliability**, **debuggability**, and **low operational overhead**.
  > Batteries included: Docker, testing, linting, and CI-ready structure.
-> 
+>
+
+!(https://github.com/pydev369/prometheus-grafana-fastapi/docs/flow.svg)
+
 ## ✨ Features
 
 - ✅ **Auto-instrumented HTTP metrics** (latency, errors, RPS)
