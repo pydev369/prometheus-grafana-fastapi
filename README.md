@@ -12,7 +12,7 @@
  > Batteries included: Docker, testing, linting, and CI-ready structure.
 >
 
-[Architecture!](https://raw.githubusercontent.com/pydev369/prometheus-grafana-fastapi/docs/flow.svg)
+[img!](https://raw.githubusercontent.com/pydev369/prometheus-grafana-fastapi/docs/flow.svg)
 
 ## ✨ Features
 
