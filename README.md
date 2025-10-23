@@ -12,7 +12,26 @@
  > Batteries included: Docker, testing, linting, and CI-ready structure.
 >
 
-[!https://pydev369.github.io/prometheus-grafana-fastapi/docs/dashboard.png]
+```mermaid
+flowchart TD
+    A[📥 Clone Repository] --> B[🐳 Build Docker Images]
+    B --> C[🔄 Start with Podman-Compose]
+    C --> D[✅ Verify Services]
+    
+    D --> E{Health Checks}
+    E -->|All Services Up| F[🎉 Deployment Successful]
+    E -->|Issues Detected| G[🔧 Troubleshooting]
+    
+    G --> H[📋 Check Container Logs]
+    H --> I[🌐 Verify Network Connectivity]
+    I --> J[🔗 Check Service Discovery]
+    J --> K[🔄 Restart Services]
+    K --> D
+    
+    F --> L[🧪 Run Load Tests]
+    L --> M[📊 Monitor Dashboards]
+    M --> N[⚡ Production Ready]
+```
 
 ## ✨ Features
 
